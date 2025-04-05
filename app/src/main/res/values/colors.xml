@@ -1,0 +1,40 @@
+<!-- <resources>
+
+    <color name="black">#000000</color>
+    <color name="darkBackground">#303030</color>
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#303030</color>
+
+
+    <color name="teal_200">#03DAC6</color>
+    <color name="teal_700">#018786</color>
+
+
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_700">#3700B3</color>
+</resources>-->
+
+<resources>
+    <!-- Cores do tema -->
+    <color name="darkBackground">#303030</color>
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#303030</color>
+
+    <!-- Cores para botões (azul teal) -->
+    <color name="teal_200">#03DAC6</color>
+    <color name="teal_700">#018786</color>
+    <color name="teal_900">#365b77</color>
+
+    <!-- Cores possivelmente referenciadas -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_700">#3700B3</color>
+
+    <!-- Cores para textos -->
+    <color name="white">#FFFFFF</color>
+    <color name="lightGray">#CCCCCC</color>
+    <color name="black">#000000</color>
+    <color name="darkGray">#3c3c3c</color>
+
+    <!-- Cores para fundos -->
+    <color name="midiGray">#515151</color>
+</resources>

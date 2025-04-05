@@ -1,0 +1,4 @@
+<resources>
+    <!-- Define o atributo para uso no tema -->
+    <attr name="colorBackground" format="color" />
+</resources>

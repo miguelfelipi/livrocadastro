@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Cadastrar Um Novo Livro" />
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Listar Livros Cadastrados"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Atualizar Livro Cadastrado"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Excluir Livro Cadastrado"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <!-- Título do Livro -->
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/lightGray"
+            android:textColorHint="@color/lightGray"
+            android:background="@color/midiGray"
+            android:paddingLeft="5dp"
+            android:hint="Título do Livro" />
+
+        <!-- Autor -->
+        <EditText
+            android:id="@+id/etAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/lightGray"
+            android:textColorHint="@color/lightGray"
+            android:background="@color/midiGray"
+            android:paddingLeft="5dp"
+            android:hint="Autor"
+            android:layout_marginTop="8dp" />
+
+        <!-- Número de Páginas -->
+        <EditText
+            android:id="@+id/etPages"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:textColor="@color/lightGray"
+            android:textColorHint="@color/lightGray"
+            android:background="@color/midiGray"
+            android:paddingLeft="5dp"
+            android:hint="Número de Páginas"
+            android:layout_marginTop="8dp" />
+
+        <!-- Editora -->
+        <EditText
+            android:id="@+id/etPublisher"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/lightGray"
+            android:textColorHint="@color/lightGray"
+            android:background="@color/midiGray"
+            android:paddingLeft="5dp"
+            android:hint="Editora"
+            android:layout_marginTop="8dp" />
+
+        <!-- Data de Lançamento -->
+        <EditText
+            android:id="@+id/etReleaseDate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/lightGray"
+            android:textColorHint="@color/lightGray"
+            android:background="@color/midiGray"
+            android:paddingLeft="5dp"
+            android:hint="Data de Lançamento"
+            android:layout_marginTop="8dp" />
+
+        <!-- Botão para Salvar -->
+        <Button
+            style="@style/CustomButtonStyle"
+            android:id="@+id/btnInsert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
